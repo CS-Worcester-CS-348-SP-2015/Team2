@@ -23,4 +23,12 @@ public class ClassA {
 	private int y;
 	private int z;
 
+	public void setA(int a){
+	this.a = a; 
+	}
+
+	public int getA(){
+	return a;
+	}
+
 }
