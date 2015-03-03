@@ -29,6 +29,13 @@ public void setZ(int z) {
 }
 public int getZ() {
 
-	return name;
-}	
+	return z;
+}
+
+public String toString()  {
+        
+        return ("Name_a" + a +
+		"Name_b" + b +
+		"Name_y" + y +
+		"Name_z" + z);	
 }
