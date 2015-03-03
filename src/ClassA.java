@@ -16,6 +16,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
 */
 
+// Dalton 3/2/15
 public class ClassA {
 	
 	private int a;
@@ -29,6 +30,6 @@ public void setZ(int z) {
 }
 public int getZ() {
 
-	return name;
+	return  z;
 }	
 }
