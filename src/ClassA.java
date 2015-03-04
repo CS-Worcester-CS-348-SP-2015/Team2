@@ -16,6 +16,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
 */
 
+//updated 3/2/2015:1635
 public class ClassA {
 	
 	private int a;
@@ -38,6 +39,16 @@ public class ClassA {
 	private int x;
 	private int y;
 	private int z;
+
+
+	public void setA(int a){
+	this.a = a; 
+	}
+
+	public int getA(){
+	return a;
+	}
+
 
 	public void setZ(int z) {
 
@@ -78,6 +89,17 @@ public String toString()  {
 
 }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
