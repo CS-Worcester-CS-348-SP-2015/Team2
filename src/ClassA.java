@@ -20,6 +20,21 @@ public class ClassA {
 	
 	private int a;
 	private int b;
+
+	private int c;
+
+
+
+	public void setC(int c){
+	this.c = c;
+	}
+
+	public int getC(){
+	return c;
+	}
+
+
+
 	private int x;
 	private int y;
 	private int z;
@@ -46,7 +61,7 @@ public class ClassA {
 	}
 	public int getX() {
 
-<<<<<<< HEAD
+
 	return z;
 }
 
@@ -56,8 +71,13 @@ public String toString()  {
 		"Name_b" + b +
 		"Name_y" + y +
 		"Name_z" + z);	
-=======
+
 		return x;
 	}	
->>>>>>> c11db7dd1eb8a56e38baf5f84cb1a7600fe226dd
+
+
 }
+
+}
+
+
