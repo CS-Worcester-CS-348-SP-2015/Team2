@@ -61,7 +61,23 @@ public class ClassA {
 	}
 	public int getX() {
 
+
+	return z;
+}
+
+public String toString()  {
+        
+        return ("Name_a" + a +
+		"Name_b" + b +
+		"Name_y" + y +
+		"Name_z" + z);	
+
 		return x;
 	}	
+
+
 }
->>>>>>> c11db7dd1eb8a56e38baf5f84cb1a7600fe226dd
+
+}
+
+
