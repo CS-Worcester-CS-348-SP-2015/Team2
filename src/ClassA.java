@@ -20,8 +20,25 @@ public class ClassA {
 	
 	private int a;
 	private int b;
+
+	private int c;
+
+
+
+	public void setC(int c){
+	this.c = c;
+	}
+
+	public int getC(){
+	return c;
+	}
+
+
+
+	private int x;
 	private int y;
 	private int z;
+
 
 	public void setA(int a){
 	this.a = a; 
@@ -31,4 +48,31 @@ public class ClassA {
 	return a;
 	}
 
+
+	public void setZ(int z) {
+
+		this.z = z;
+	}
+	public int getZ() {
+
+		return name;
+	}	
+	public void setB(int b) {
+	
+		this.b = b;
+	}
+	public int getB() {
+
+		return b;
+	}	
+	public void setX(int x) {
+	
+		this.x = x;
+	}
+	public int getX() {
+
+		return x;
+	}	
+
 }
+
