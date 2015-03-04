@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
 */
 
-<<<<<<< HEAD
-// Dalton 3/2/15
+
+
 =======
 //updated 3/2/2015:1635
->>>>>>> ac48a54e0549597363b4bc448bd622e5bd448114
+
 public class ClassA {
 	
 	private int a;
@@ -60,7 +60,7 @@ public class ClassA {
 	}
 	public int getZ() {
 
-		return name;
+		return z;
 	}	
 	public void setB(int b) {
 	
@@ -77,22 +77,23 @@ public class ClassA {
 	public int getX() {
 
 
-	return z;
+	return x;
 }
 
 
-	return  z;
-}	
-}
+		
+
 
 public String toString()  {
         
         return ("Name_a" + a +
+		"Name_c" + c +
+		"Name_x" + x +
 		"Name_b" + b +
 		"Name_y" + y +
 		"Name_z" + z);	
 
-		return x;
+		
 	}	
 
 
