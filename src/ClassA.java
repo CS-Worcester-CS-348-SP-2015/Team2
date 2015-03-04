@@ -63,5 +63,11 @@ public class ClassA {
 
 		return x;
 	}	
+	public int getY() {
+		return y;
+	}
+	public int setY(int Y);
+		this.y = y;
+	}
 }
 >>>>>>> c11db7dd1eb8a56e38baf5f84cb1a7600fe226dd
