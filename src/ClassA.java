@@ -20,15 +20,32 @@ public class ClassA {
 	
 	private int a;
 	private int b;
+	private int x;
 	private int y;
 	private int z;
 
-public void setZ(int z) {
-	
-	this.z = z;
-}
-public int getZ() {
+	public void setZ(int z) {
 
-	return name;
-}	
+		this.z = z;
+	}
+	public int getZ() {
+
+		return name;
+	}	
+	public void setB(int b) {
+	
+		this.b = b;
+	}
+	public int getB() {
+
+		return b;
+	}	
+	public void setX(int x) {
+	
+		this.x = x;
+	}
+	public int getX() {
+
+		return x;
+	}	
 }
