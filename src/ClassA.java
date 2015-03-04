@@ -18,7 +18,7 @@
 
 
 
-=======
+
 //updated 3/2/2015:1635
 
 public class ClassA {
@@ -94,7 +94,16 @@ public String toString()  {
 		"Name_z" + z);	
 
 		
-	}	
+        }	
+
+	public int getY() {
+		return y;
+	}
+	public int setY(int Y);
+		this.y = y;
+	}
+
+
 
 
 }
